@@ -1,0 +1,54 @@
+@import "compass/css3/transform";
+@import "compass/css3"; 
+
+
+
+
+
+body.alter-g{
+	
+
+	
+	section{
+		&.Anti-Gravity.Treadmill{
+			video{
+				margin: 50px 0;
+				max-width: 100%;
+
+			}
+		}
+
+
+		&.Logging.In, &.Patient.Selection, &.Onboarding, &.Inputing.Pain, &.Live.View, &.Ending.a.Session, &.Understanding.Pain, &.Patient.Portal, &.Treadmill.InterfaceUI{
+			padding-top: 200px;
+			padding-bottom: 200px;
+
+			@media only screen and (max-width:1100px){
+				padding-top: 100px;
+				padding-bottom: 100px;
+
+				
+			}
+
+
+
+			@media only screen and (max-width:400px){
+				padding-top: 60px;
+				padding-bottom: 40px;
+			}
+			video{
+				margin: 50px 0;
+				max-width: 100%;
+				width: 100%;
+				vertical-align: top;
+
+			}
+
+			.video-container{
+				width: 100%;
+			}
+		}
+	}
+	
+}
+
